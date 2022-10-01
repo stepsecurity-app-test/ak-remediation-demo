@@ -2,6 +2,9 @@ name: auoms
 on:
   [workflow_dispatch]
    
+permissions:
+  contents: read
+
 jobs:
   run:
     name: Run
